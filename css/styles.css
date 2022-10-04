@@ -1,0 +1,45 @@
+:root {
+    --text-color: #333333;
+    --main-bg-color: #FFFFFF;
+    --alt-bg-color: #00261D;
+    --accent-color: ;
+
+
+}
+
+.body {
+    background: var(--main-bg-color);
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background: #c2a1a1;
+}
+
+.header {
+    background: var(--alt-bg-color)
+}
+
+.header-list {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header-item {}
+
+.header-item:focus {
+    border-radius: 3px solid #333333;
+
+}
+
+.header-item:hover {
+    text-decoration: underline;
+}
+
+.header-item:active {
+    opacity: 0.7;
+}
